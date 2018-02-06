@@ -1,0 +1,324 @@
+body {
+  font-size: 1.4rem;
+}
+.jumbotron {
+  background-image: url(../images/flower-crop.jpeg);
+  background-size: cover;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.padding {
+  padding-top: 1rem;
+}
+p {
+  font-size: 1.2rem;
+}
+.nav-item {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+.hero {
+  background-image: url(../images/hero2.jpg);
+  background-size: cover;
+  background-position: top left;
+  padding-top: 30vh;
+  padding-bottom: 50vh;
+}
+.lead-header{
+  font-size: 3rem;
+  color: #404040;
+  font-weight: 400;
+  font-family: cursive;
+}
+h1 {
+  color: #404040;
+  font-weight: 300;
+}
+h3{
+  color: #404040;
+  font-weight: 400;
+}
+p .lead {
+  color: #000000;
+  font-weight: 400;
+}
+.secondary{
+  color: ghostwhite;
+  font-size: 13px;
+}
+.store {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.logo img {
+  width: 250px;
+  height: 250px;
+}
+.store-text {
+  padding-top: 5vh;
+}
+.parallax {
+  height: 30vmax;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  display: block;
+}
+.parallax-tool {
+ background-image: url(../images/women-in-business3.jpg); 
+}
+.parallax-access {
+ background-image: url(../images/women-in-business.jpg); 
+}
+.devices img {
+  width: 250px;
+  height: 250px;
+}
+.see {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.see-text {
+  padding-top: 5vh;
+}
+.share-padding {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+.header-padding {
+  padding-top: 2rem;
+}
+.mature-woman {
+  background-image: url(../images/women-in-business4.jpg);
+  background-size: cover;
+  background-position: top bottom;
+  padding-top: 35vh;
+  padding-bottom: 50vh;
+}
+.logo-img {
+  width: 150px;
+  height: 150px;
+  padding-bottom: 1.5rem;
+}
+.sign-up-home {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.sign-up-h1-padding {
+  padding-bottom: 1.5rem;
+}
+footer {
+  background-color: dimgrey;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.footer-p {
+  color: aliceblue;
+}
+
+/* Start slider */
+.range {
+    display: table;
+    position: relative;
+    height: 25px;
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.range input[type="range"] {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -ms-appearance: none !important;
+    -o-appearance: none !important;
+    appearance: none !important;
+
+    display: table-cell;
+    width: 100%;
+    background-color: transparent;
+    height: 38px;
+    cursor: pointer;
+}
+.range input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -ms-appearance: none !important;
+    -o-appearance: none !important;
+    appearance: none !important;
+
+    width: 11px;
+    height: 38px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0px;
+    background-color: rgb(153, 153, 153);
+}
+
+.range input[type="range"]::-moz-slider-thumb {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -ms-appearance: none !important;
+    -o-appearance: none !important;
+    appearance: none !important;
+    
+    width: 11px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0px;
+    background-color: rgb(153, 153, 153);
+}
+
+.range output {
+    display: table-cell;
+    padding: 3px 5px 2px;
+    min-width: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(153, 153, 153);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+.range input[type="range"] {
+    outline: none;
+}
+.range.range-success input[type="range"]::-webkit-slider-thumb {
+    background-color: rgb(92, 184, 92);
+}
+.range.range-success input[type="range"]::-moz-slider-thumb {
+    background-color: rgb(92, 184, 92);
+}
+.range.range-success output {
+    background-color: rgb(92, 184, 92);
+}
+.range.range-success input[type="range"] {
+    outline-color: rgb(92, 184, 92);
+}
+.range.range-primary input[type="range"]::-webkit-slider-thumb {
+    background-color: rgb(92, 184, 92);
+}
+.range.range-primary input[type="range"]::-moz-slider-thumb {
+    background-color: rgb(92, 184, 92);
+}
+.range.range-primary output {
+    background-color: rgb(92, 184, 92);
+}
+.range.range-primary input[type="range"] {
+    outline-color: rgb(92, 184, 92);
+}
+.range.range-info input[type="range"]::-webkit-slider-thumb {
+    background-color: rgb(92, 184, 92);
+}
+.range.range-info input[type="range"]::-moz-slider-thumb {
+    background-color: rgb(92, 184, 92);
+}
+.range.range-info output {
+    background-color: rgb(92, 184, 92);
+}
+.range.range-info input[type="range"] {
+    outline-color: rgb(92, 184, 92);
+}
+/*End slider*/
+
+/*Start social media icons*/
+      .social ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+      }
+      .social ul li{
+        display: block;
+        width: 54px;
+        height: 54px;
+        border-radius: 100px;
+        padding: 10px 10px;
+        margin-right: 10px;
+        background: #fff;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+      }
+      .social ul li:nth-child(1){
+        color: #3b5998;
+      }
+      .social ul li:nth-child(1):hover{
+        background: #3b5998;
+        color: #fff;
+        animation: roll 1s ;
+        transition: rotate(20deg);
+      }
+      .social ul li:nth-child(2){
+        color: #dd4b39;
+      }
+      .social ul li:nth-child(2):hover{
+        background: #dd4b39;
+        color: #fff;
+        animation: roll 1s ;
+        transition: rotate(20deg);
+      }
+      .social ul li:nth-child(3){
+        color: #55acee;
+      }
+      .social ul li:nth-child(3):hover{
+        background: #55acee;
+        color: #fff;
+        animation: roll 1s;
+        transition: rotate(20deg);
+      }
+      .social ul li:nth-child(4){
+        color: #bb0000;
+      }
+      .social ul li:nth-child(4):hover{
+        background: #bb0000;
+        color: #fff;
+        animation: roll 1s;
+        transition: rotate(20deg);
+      }
+      .social ul li:nth-child(5){
+        color: #007bb5;
+      }
+      .social ul li:nth-child(5):hover{
+        background: #007bb5;
+        color: #fff;
+        animation: roll 1s;
+        transition: rotate(20deg);
+      }
+      @keyframes roll {
+        0%{
+          transform: rotate(0deg);
+        }
+        100%{
+          transform: rotate(360deg);
+        }
+      }
+/*End social media icons*/
+  hr.style {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+}
